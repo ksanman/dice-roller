@@ -1,0 +1,51 @@
+div {
+    color: #fff;
+}
+
+.selectors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions button {
+    margin: 10px 5px;
+}
+
+.btn {
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    margin: 0;
+    min-width: 64px;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 4px;
+    overflow: visible;
+}
+
+.reset:hover {
+    border: 1px solid red;
+}
+
+.roll:hover {
+    border: 1px solid green;
+}
+
+.reset {
+    background-color: lightcoral;
+}
+
+.roll {
+    background-color: lightgreen;
+}

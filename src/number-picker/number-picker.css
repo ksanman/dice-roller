@@ -1,0 +1,31 @@
+.picker button {
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    overflow: visible;
+    font-weight: 700;
+    font-size: 12pt;
+}
+
+.picker button:hover {
+    border-width: 3px;
+    border-color: blue;
+}
